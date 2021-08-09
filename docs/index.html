@@ -2,16 +2,21 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
     <title>Livro dos Livros</title>
 </head>
 <body>
-    <article>
+    <nav>
+        <a id="nav-Livros" onclick="changeView(this.id)">Livros</a>
+        <a id="nav-Regras" onclick="changeView(this.id)">Regras</a>
+    </nav>
+    <article id="tab-Livros" class="hide show">
         <table id="main-table">
             <tr><th>Nome</th><th>Autor</th><th>Editora</th><th>Vez</th><th>Ano</th></tr>
             <tr><td>Crime e Castigo</td><td>Fiódor Dostoiévski</td><td>Martin Claret</td><td>Primeira</td><td>2020</td></tr>
             <tr><td>A Flecha de Fogo</td><td>Leonel Caldela</td><td>Jambô</td><td>Primeira</td><td></td></tr>
             <tr><td>O médico e o monstro & O ladrão de corpos</td><td>Robert Louis Stevenson</td><td>Nova Fronteira</td><td>Primeira</td><td></td></tr>
-            <tr><td>Vença</td><td>Dr. Frank I. Luntz</td><td>Alta Books</td><td>Primeira</td><td></td></tr>
+            <tr><td>Vença</td><td>Frank Ian Luntz</td><td>Alta Books</td><td>Primeira</td><td></td></tr>
             <tr><td>Fundação</td><td>Isaac Asimov</td><td>Aleph</td><td>Primeira</td><td></td></tr>
             <tr><td>Nas montanhas da loucura</td><td>Howard Phillips Lovecraft</td><td>Nova Fronteira</td><td>Primeira</td><td>2021</td></tr>
             <tr><td>Fundação e Império</td><td>Isaac Asimov</td><td>Aleph</td><td>Primeira</td><td></td></tr>
@@ -21,6 +26,15 @@
             <tr><td>Duna</td><td>Frank Herbert</td><td>Aleph</td><td>Primeira</td><td></td></tr>
             <tr><td>Me chame pelo seu nome</td><td>André Aciman</td><td>Intrínseca</td><td>Primeira</td><td></td></tr>
         </table>
+    </article>
+    <article id="tab-Regras" class="hide">
+        <ul>
+            <li>Ler pelo menos cada livro da lista duas vezes.</li>
+            <li>Uma nova leitura de um mesmo livro não deve acontecer antes de quatro outras leituras.</li>
+            <li>Não ler uma sequência de livros (um par de livros, um depois do outro) de um mesmo autor.</li>
+            <li>Não repetir uma sequência de livros.</li>
+            <li>Para cada livro lido pelo menos 2 vezes, uma resenha deve ser feita.</li>
+        </ul>
     </article>
 </body>
 </html>

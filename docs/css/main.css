@@ -1,15 +1,40 @@
 body {
     background-color: rgb(130, 205, 252);
     margin: 0em;
+    font-family: monospace;
+}
+nav {
+    margin: 0.5em 1em;
+}
+nav a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0em 0.5em;
+    text-decoration: none;
+}
+nav a:link {
+    color: black;
+}
+nav a:visited {
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+nav a:active {
+    color: black;
 }
 article {
     background-color: rgb(161, 219, 255);
     border-radius: 1em;
-    margin: 1em;
+    margin: 0.5em 1em;
+    padding: 1em;
 }
-#main-table {
-    font-family: monospace;
-    margin: 1em auto;
+.hide {
+    display: none;
+}
+.show {
+    display: block;
 }
 #main-table th, #main-table td {
     padding: 0.25em 0.5em;
