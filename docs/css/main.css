@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(130, 205, 252);
+    margin: 0em;
+}
+article {
+    background-color: rgb(161, 219, 255);
+    border-radius: 1em;
+    margin: 1em;
+}
+#main-table {
+    font-family: monospace;
+    margin: 1em auto;
+}
+#main-table th, #main-table td {
+    padding: 0.25em 0.5em;
+}
