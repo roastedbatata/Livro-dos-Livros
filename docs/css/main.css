@@ -1,10 +1,12 @@
 body {
     background-color: rgb(130, 205, 252);
+    padding: 1em;
     margin: 0em;
     font-family: monospace;
 }
 nav {
-    margin: 0.5em 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 nav a {
     cursor: pointer;
@@ -27,7 +29,7 @@ nav a:active {
 article {
     background-color: rgb(161, 219, 255);
     border-radius: 1em;
-    margin: 0.5em 1em;
+    margin: 1em;
     padding: 1em;
 }
 .hide {
